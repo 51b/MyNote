@@ -25,7 +25,9 @@ ssh-keygen -t rsa -C “5.1.b@163.com”
 cat ~/.ssh/id_rsa.pub
 ```
 	输出如下：
-	![终端输出](pic_SSH_01.png)
+  
+	![终端输出](pic/SSH_01.png)
+  
 	把输出部分复制一下，然后在github上添加SSH Key的时候粘贴进去
 
 3. 添加SSH密钥
@@ -37,7 +39,8 @@ ssh-add ~/.ssh/id_rsa
 ssh git@github.com
 ```
 	大致会看到类似的成功提示：
-	![成功提示](pic_SSH_02.png)
+  
+	![成功提示](pic/SSH_02.png)
 
 
 
