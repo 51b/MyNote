@@ -9,8 +9,8 @@ git config --lis
 ```
 	如果尚未配置用户名和邮箱，则可以通过以下命令进行配置：
 	```
-git config -global user.name "onebin"
-git config -global user.email "5.1.b@163.com"
+git config --global user.name "onebin"
+git config --global user.email "5.1.b@163.com"
 ```
 
 2. 生成SSH密钥
